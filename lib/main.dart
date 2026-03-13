@@ -28,7 +28,7 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-//create a function to sum two integers
+
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
@@ -39,11 +39,10 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       // body: Container(
-
-      //   color : Colors.blue,
+      //   color: Colors.blue,
       //   // child: Text("Hello welcome to flutter"),
       //   alignment: Alignment.center,
-      //   child : Container(
+      //   child: Container(
       //     width: 400,
       //     height: 220,
       //     padding: EdgeInsets.all(10),
@@ -54,8 +53,16 @@ class _MyHomePageState extends State<MyHomePage> {
       //     ),
       //     alignment: Alignment.center,
       //     child: Text("This is Muhammad Iqbal"),
-      //   )
+      //   ),
       // ),
+      body : Text('Hello flutter developers', style : TextStyle(
+        fontSize: 20,
+        color: Colors.white,
+        backgroundColor: Colors.blue,
+        fontWeight: FontWeight.bold,
+        fontStyle: FontStyle.italic,
+       
+      ),),
     );
   }
 }
